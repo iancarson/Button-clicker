@@ -1,2 +1,2 @@
 # Button-clicker
-A basic Python Script that clicks a specified button like the Like button on Twitter.
+A basic Python Script that clicks a specified button for instance the Like button on Twitter.
