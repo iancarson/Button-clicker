@@ -7,7 +7,8 @@ import time
 # Set the URL of the webpage you want to interact with
 url = "https://combustibleapp.com/#/pages/index/index"  # Replace with your target URL
 //Define the login credentials
-
+username = "username"
+password = "password"
 
 
 # Create a function to automate the interaction
