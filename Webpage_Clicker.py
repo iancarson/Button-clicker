@@ -19,7 +19,7 @@ def automate_interaction():
     try:
         # Open the webpage
         driver.get(url)
-
+        login_prompt = driver.find_elements(By.XPATH, "//input[@type='text' and @name='username']")
         # Wait for a few seconds (adjust the time as needed)
         time.sleep(2)
 
