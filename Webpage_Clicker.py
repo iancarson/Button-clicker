@@ -25,6 +25,8 @@ def automate_interaction():
             username_input = driver.find_elements(By.XPATH, "//input[@type='text' and @name='username']")
             password_input = driver.find_elements(By.XPATH, "//input[@type='password' and @name='password']")
             login_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Login')]")
+            username_input.send_keys(username)
+            password_input.send_keys(password)
         # Wait for a few seconds (adjust the time as needed)
         time.sleep(2)
 
