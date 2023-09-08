@@ -20,6 +20,11 @@ def automate_interaction():
         # Open the webpage
         driver.get(url)
         login_prompt = driver.find_elements(By.XPATH, "//input[@type='text' and @name='username']")
+        if login_prompt:
+            #If a login prompt is found, enter the credentials.
+            username_input = driver.find_elements(By.XPATH, "//input[@type='text' and @name='username']")
+            password_input = driver.find_elements(By.XPATH, "//input[@type='password' and @name='password']")
+            login_button = driver.find_element(By.XPATH, "//button[contains(text(), 'Login')]")
         # Wait for a few seconds (adjust the time as needed)
         time.sleep(2)
 
