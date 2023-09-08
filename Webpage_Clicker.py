@@ -18,8 +18,7 @@ def automate_interaction():
         driver.get(url)
 
         # Find and click the button on the webpage
-        button = driver.find_element(By.XPATH,
-                                     "//button[contains(text(), 'Button Text')]")  # Replace with the actual button locator
+        button = driver.find_element(By.XPATH,"//button[contains(text(), 'Button Text')]")  # Replace with the actual button locator
         button.click()
 
         # Wait for a few seconds (adjust the time as needed)
