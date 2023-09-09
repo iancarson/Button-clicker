@@ -11,7 +11,6 @@ password = "password"
 def automate_interaction():
     driver = webdriver.Chrome()
     try:
-        # Open the webpage
         driver.get(url)
         login_prompt = driver.find_elements(By.XPATH, "//input[@type='text' and @name='username']")
         if login_prompt:
