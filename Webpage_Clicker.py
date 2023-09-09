@@ -30,7 +30,6 @@ def automate_interaction():
     except Exception as e:
         print("An error occurred:", str(e))
     finally:
-        # Close the browser window
         driver.quit()
 
 
