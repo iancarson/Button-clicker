@@ -23,7 +23,6 @@ def automate_interaction():
         else:
             button = driver.find_element(By.XPATH,"//button[contains(text(), 'Button Text')]")
             button.click()
-        # Wait for a few seconds (adjust the time as needed)
         time.sleep(2)
 
         # Handle the popup
