@@ -8,8 +8,6 @@ url = "https://combustibleapp.com/#/pages/index/index"
 username = "username"
 password = "password"
 
-
-# Create a function to automate the interaction
 def automate_interaction():
     # Initialize a Selenium WebDriver
     driver = webdriver.Chrome()  # You need to have ChromeDriver installed
