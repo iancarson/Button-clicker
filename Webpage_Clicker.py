@@ -9,9 +9,7 @@ username = "username"
 password = "password"
 
 def automate_interaction():
-    # Initialize a Selenium WebDriver
-    driver = webdriver.Chrome()  # You need to have ChromeDriver installed
-
+    driver = webdriver.Chrome()
     try:
         # Open the webpage
         driver.get(url)
