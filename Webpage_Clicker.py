@@ -4,7 +4,6 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.alert import Alert
 import time
 
-# Set the URL of the webpage you want to interact with
 url = "https://combustibleapp.com/#/pages/index/index"  # Replace with your target URL
 #Define the login credentials
 username = "username"
