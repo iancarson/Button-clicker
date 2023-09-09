@@ -4,8 +4,7 @@ from selenium.webdriver.common.keys import Keys
 from selenium.webdriver.common.alert import Alert
 import time
 
-url = "https://combustibleapp.com/#/pages/index/index"  # Replace with your target URL
-#Define the login credentials
+url = "https://combustibleapp.com/#/pages/index/index" 
 username = "username"
 password = "password"
 
