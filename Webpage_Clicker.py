@@ -24,10 +24,8 @@ def automate_interaction():
             button = driver.find_element(By.XPATH,"//button[contains(text(), 'Button Text')]")
             button.click()
         time.sleep(2)
-
-        # Handle the popup
         alert = Alert(driver)
-        alert.accept()  # Click the OK button on the popup
+        alert.accept()
 
     except Exception as e:
         print("An error occurred:", str(e))
